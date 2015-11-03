@@ -1,0 +1,15 @@
+﻿
+Title : {{ model.title}}
+
+{% for item in model.Filters -%}
+<div class="result">    
+    <div class="abstract">{{item}}</div>    
+</div>
+{% endfor -%}
+
+<div>
+    <form method="POST">
+        <input type ="text" name="text1"/>
+        <input type="submit" value="Go"/>
+    </form>
+</div>

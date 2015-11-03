@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>NICE.HDAS.Client</id>
+    <version>$version$</version>
+    <title>NICE HDAS Client</title>
+    <authors>NICE</authors>
+    <owners>nhsevidence</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>HDAS 2 client. Use this to consume HDAS2 Webservice</description>
+    <releaseNotes>This is in beta.</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>HDAS</tags>
+  </metadata>
+
+</package>
+

@@ -1,0 +1,20 @@
+source https://nuget.org/api/v2
+
+nuget CsQuery
+nuget FSharp.Configuration
+nuget FSharp.Core
+nuget FSharp.Data
+nuget FSharp.Formatting
+nuget FSharp.Interop.Dynamic
+nuget Fuchu
+nuget NUnit 
+nuget NUnit.Runners
+nuget FAKE
+nuget SourceLink.Fake
+nuget Suave
+nuget Suave.DotLiquid
+nuget Suave.Testing
+nuget System.Net.Http
+nuget Unquote
+
+github fsharp/FAKE modules/Octokit/Octokit.fsx

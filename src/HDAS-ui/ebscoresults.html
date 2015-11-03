@@ -1,0 +1,9 @@
+﻿<h2>Ebsco results for search term "{{ model.search_term}}"</h2>
+
+{% for rec in model.search_results -%}
+<div class="results">
+    <div class="title"><b>Title: </b>{{rec.Title}}</div>        
+    <div class="abstract"><b>Abstract: </b>{{rec.Abstract}}</div>
+    <br />
+</div>
+{% endfor -%}

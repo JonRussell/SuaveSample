@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+  <title>OvidWS Root Resource</title>
+  <link rel="stylesheet" type="text/css" href="/ovidws/css/ovidws.css" />
+  <script type="text/javascript" src="/ovidws/js/jquery.js"></script>
+  <script type="text/javascript" src="/ovidws/js/ovidws.js"></script>
+</head>
+
+<body>
+    <div id="navigation">
+        <a class="documentation" href="/ovidws/docs/index.html">Help</a>
+    </div> 
+    <ul id="root">
+        <li><a id="uri" href="/ovidws/">Self URI</a></li>
+        <li><a id="database_list" href="/ovidws/databases">Database List</a></li>
+        <li><a id="result_set_list" href="/ovidws/resultsets">Result Set List</a></li>
+        <li><a id="search_history_list" href="/ovidws/searchhistory">Search History List</a></li>
+        <li>Journal Lists
+            <ul id="journal_lists">
+            
+        	</ul>
+        </li>
+		<li><a class="books_url" href="/ovidws/books">Books@Ovid</a></li>
+       	<li><a id="documentation" href="/ovidws/docs/index.html">Service Documentation</a></li>
+        <li><a id="version" href="/ovidws/version">OvidWS Version and deployment info</a></li>
+        <li><a id="clone_list" href="/ovidws/clonelist">OvidWS Clone List Resource</a></li>        
+        <li><a id="myprojects" href="/ovidws/myprojects">My Projects Resource</a></li>        
+          <li><a id="autoalerts" href="/ovidws/autoalerts">AutoAlerts(SDI) Resource</a></li>
+    </ul>
+	<form id="terminate_session" method="post" action="/ovidws/session">
+    <fieldset>
+        <legend class="doc">Terminate this ovidweb session</legend>
+        <p>Session key: <span id="session_key">GDENFPNOLODDBNKINCGPIGOBJBCKAA00</span></p>
+        <input type="hidden" name="_method" value="DELETE" />
+		<input type="hidden" name="" value=""/>
+        <input type="submit" value="Delete"/>
+    </fieldset>
+  </form>
+</body>
+</html>

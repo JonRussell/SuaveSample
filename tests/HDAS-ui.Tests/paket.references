@@ -1,0 +1,11 @@
+NUnit
+NUnit.Runners
+Suave
+Suave.Testing
+System.Net.Http
+Fuchu
+CsQuery
+Suave.DotLiquid
+Unquote
+FSharp.Data
+FSharp.Configuration

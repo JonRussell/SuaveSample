@@ -1,0 +1,5 @@
+Suave
+System.Net.Http
+Suave.DotLiquid
+FSharp.Data
+FSharp.Configuration

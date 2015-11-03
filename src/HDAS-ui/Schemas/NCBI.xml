@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE eSearchResult PUBLIC "-//NLM//DTD esearch 20060628//EN" "http://eutils.ncbi.nlm.nih.gov/eutils/dtd/20060628/esearch.dtd">
+<eSearchResult><Count>3180502</Count><RetMax>20</RetMax><RetStart>0</RetStart><IdList>
+<Id>26398952</Id>
+<Id>26398947</Id>
+<Id>26398941</Id>
+<Id>26398940</Id>
+<Id>26398937</Id>
+<Id>26398932</Id>
+<Id>26398931</Id>
+<Id>26398915</Id>
+<Id>26398912</Id>
+<Id>26398908</Id>
+<Id>26398907</Id>
+<Id>26398902</Id>
+<Id>26398894</Id>
+<Id>26398888</Id>
+<Id>26398882</Id>
+<Id>26398880</Id>
+<Id>26398868</Id>
+<Id>26398865</Id>
+<Id>26398837</Id>
+<Id>26398831</Id>
+</IdList><TranslationSet><Translation>     <From>cancer</From>     <To>"neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields]</To>    </Translation></TranslationSet><TranslationStack>   <TermSet>    <Term>"neoplasms"[MeSH Terms]</Term>    <Field>MeSH Terms</Field>    <Count>2708361</Count>    <Explode>Y</Explode>   </TermSet>   <TermSet>    <Term>"neoplasms"[All Fields]</Term>    <Field>All Fields</Field>    <Count>2146195</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <TermSet>    <Term>"cancer"[All Fields]</Term>    <Field>All Fields</Field>    <Count>1594965</Count>    <Explode>N</Explode>   </TermSet>   <OP>OR</OP>   <OP>GROUP</OP>  </TranslationStack><QueryTranslation>"neoplasms"[MeSH Terms] OR "neoplasms"[All Fields] OR "cancer"[All Fields]</QueryTranslation></eSearchResult>

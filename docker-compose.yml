@@ -1,0 +1,9 @@
+hdas2-ui:
+  image: nice/hdas2-ui:624a4f1
+  ports:
+    - "8085:8085"
+  environment:
+    HDAS_SERVICE_IP: ""
+    PROQUEST_SEARCH_URI: ""
+    EBSCO_SEARCH_URI: ""
+    OVID_SEARCH_URI: ""
